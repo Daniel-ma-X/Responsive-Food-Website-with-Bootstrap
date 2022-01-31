@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+/* HEADER  */
+
+.navbar .container-fluid .navbar-brand {
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar .container-fluid .navbar-toggler {
+    background: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* MAIN --- SECTION__BG-TOP */
+.section__bg-top {
+    width: 100%;
+    height: 500px;
+    background-image: url(/images/imagen-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* MAIN --- SECTION SOBRE NOSOTROS */
+.line {
+    display: block;
+    max-width: 70px;
+    height: 4px;
+}
+
+.img-container {
+    height: 300px;
+}
+
+.img-container img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* MAIN --- SECTION PROUCTOS */
+.icono-producto {
+    font-size: 80px;
+}
+
+/* MAIN --- CONTACTO */
+.icono-contacto {
+    font-size: 60px;
+}
+
+.icono-contacto-ins,
+.icono-contacto-ins:hover {
+    color: brown;
+}
+
+.icono-contacto-whats,
+.icono-contacto-whats:hover {
+    color: rgb(54, 167, 54);
+}
+
+/* FOOTER  */
+/* .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
